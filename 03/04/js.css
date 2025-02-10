@@ -1,0 +1,30 @@
+section {
+    width: 90%;
+    height: 400px;
+    border:1px solid rgb(209, 204, 204);
+}
+header { 
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+header > h1 {
+    width: 80%;
+    height: 100%;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header > a {
+    display: flex;
+    font: ;
+}
+header > a:link,a:visited,a:hover {
+    color: white;
+}

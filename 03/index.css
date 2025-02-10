@@ -67,6 +67,11 @@ a{
 article a:link, a:visited a:hover {
     color: white;
 }
-
+.green{
+    background-color: green;
+}
+.green:hover {
+    background-color: rgb(94, 131, 38);
+}
 
  

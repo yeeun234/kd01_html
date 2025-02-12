@@ -25,11 +25,14 @@ header {
     width : 90% ;
     height: 400px;
     border: 1px dotted gainsboro;
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+=======
+>>>>>>> c402850518065293afeff0c0541367cdd8c1f353
   }
   
   header > a {
@@ -42,6 +45,7 @@ header {
   }
   header > a:link, header > a:visited, header > a:hover {
     color : white;
+<<<<<<< HEAD
   }
 
   button{
@@ -70,4 +74,6 @@ header {
     font-size: 100px;
     font-weight: bold;
     color: blueviolet;
+=======
+>>>>>>> c402850518065293afeff0c0541367cdd8c1f353
   }

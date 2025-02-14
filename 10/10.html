@@ -12,12 +12,13 @@
     <!-- 외부스타일 -->
     <link rel="stylesheet" type="text/css" href="../index.css">
     <link rel="stylesheet" type="text/css" href="../js.css">
+    <link rel="stylesheet" type="text/css" href="./10.css">
     <!-- <link rel="stylesheet" type="text/css" href="./07.css"> -->
 
     <title>KD01 JS</title>
 
     <!-- 외부 자바스크립트 -->
-    <script src="./08.js"></script>
+    <script src="./10.js"></script>
 </head>
 
 <body>
@@ -27,12 +28,23 @@
             <a href="../index.html"><i class="fa-solid fa-house"></i></a>
         </header>
         <section>
-            <div id="msg">
-                <img src="../img/1.png" alt="1.png">
-            </div>
-            <div>
-                <button> 확인</button>
-           
+            <div class="unit">
+                <div class="unitDiv">
+                    <select id="sell">
+                        <option value="℃" selected>섭씨온도(℃)</option>
+                        <option value="℉">화씨온도(℉)</option>
+                    </select>
+                    <select id="sell2">
+                        <option value="℃">섭씨온도(℃)</option>
+                        <option value="℉" selected>화씨온도(℉)</option>
+                    </select>
+                </div>
+                <div class="unitDiv">
+                    <div>
+                        <input type="text" id="txt1" name="txt1"><span>℃</span>
+                        <input type="text" id="txt1" name="txt2" readonly><span>℉</span>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

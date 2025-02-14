@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // console.log(num);
         // 3.img의 src값이랑 alt값 바꾸기
         document.querySelector('img').setAttribute('src',`../img/${num}.png`)
-        document.querySelector('img').setAttribute('alt',`${num}.png`)
+        document.querySelector('img').setAttribute('alt',`${num}.png`);
     })
 });
 

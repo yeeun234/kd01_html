@@ -1,0 +1,19 @@
+.dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dice > div {
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+#msg {
+    padding: 10px;
+}

@@ -1,0 +1,27 @@
+.unit {
+    width: 500px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.unitDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+select  {
+    width: 45%;
+    height: 40px;
+    display: inline-flex;
+    margin: 5px;
+}
+input {margin: 5px;}
+
+input[readonly] {
+    background-color: beige;
+}

@@ -14,7 +14,7 @@ obj['당근']='🥕';
 console.log(obj['당근']);
 
 //수정
-obj.사과 = '🍏';
+obj.사과 = '🍏'; 
 console.log(obj['사과']);
 
 //삭제
@@ -31,7 +31,7 @@ for (let i = 0 ; i < Object.keys(obj).length; i++){
     console.log(Object.keys(obj)[i],Object.values(obj)[i],obj[Object.keys(obj)[i]]);
 }
 
-//in은 배열의 키값을 가져옴
+//in은 배열의 키,혹은 인덱스를 가져옴
 for(let i in Object.keys(obj)){
     console.log(Object.keys(obj)[i],Object.values(obj)[i],obj[Object.keys(obj)[i]]);
 

@@ -1,0 +1,25 @@
+
+.updown {
+    display: inline flex;
+    width: 90%;
+    height: 70px;
+    background-color: aliceblue;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+section div {
+    margin: 20px;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+}
+
+input {
+    height: 30px;
+}
+
+button {
+    margin-left: 20px;
+}

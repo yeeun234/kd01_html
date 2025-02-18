@@ -1,0 +1,33 @@
+/* section> div {
+    display: flex;
+    border: 1px solid black;
+}
+
+section> div > div {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: 1px solid beige;
+} */
+
+img {
+    height: 100px;
+    width: 100px;
+    padding: 3px;
+}
+
+.row {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+}
+
+.col {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid beige;
+}

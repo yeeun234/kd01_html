@@ -20,8 +20,12 @@ select  {
     display: inline-flex;
     margin: 5px;
 }
-input {margin: 5px;}
+input {margin: 5px;
+    text-align: center;
+
+}
 
 input[readonly] {
     background-color: beige;
+    text-align: center;
 }

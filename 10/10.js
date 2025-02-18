@@ -72,8 +72,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // console.log(input1.value);
         input2.value = input1.value;
         // input2.innerText=input1.innerText;
+
+        //화씨섭씨 단위변환 함수
         if(sel1.value == "℃") {
-            input2.value = ((input1.value)*(9/5)+32);
+            input2.value = ((input1.value)*(9/5)+32).toFixed(4);
         } else { input2.value = (((input1.value)-32)*(5/9)).toFixed(4);}
 
     });

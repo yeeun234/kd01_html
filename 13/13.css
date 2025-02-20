@@ -1,0 +1,14 @@
+form {
+    width: 90%;
+    height: 60px;
+    background-color: beige;
+
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+
+input[type=date] {
+    height: 40px;
+    margin-right: 10px;
+}

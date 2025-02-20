@@ -2,83 +2,76 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-  }
-  
-  main {
+}
+
+main {
     width: 80%;
+    border: 0px solid gray;
     margin-left: 10%;
     padding: 20px;
-    border: 0px solid gray;
-    display: flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  h1 , nav , article {
-    width : 90%;
+}
+
+h1, nav, article{
+    width: 90%;
+    border: 1px solid grey;
     margin-bottom: 20px;
-    border: 1px solid gray;
-  }
-  
-  nav {
+}
+nav {
     padding: 40px;
-  }
-  
-  article {
+}
+article {
     padding: 20px;
-    background-color: aliceblue;
-  }
-  
-  h1 { 
+}
+h1 {
     height: 80px;
     padding: 20px;
     background-color: black;
-    color : white;
+    color: white;
     font-weight: bold;
     text-align: center;
-  }
-  
-  /* ol > li  */
-  nav li {
+}
+ul > li{
+    list-style: none;
+    border: 1px solid grey;
+}
+
+article li {
+    display: inline-flex;
+    padding: 5px;
+    background-color: rgb(175, 151, 197);
+    color: white;
+    border-radius: 5px;
+}
+article {
+   display: flex; 
+   justify-content: end;
+}
+article li:hover {
+    background-color: blueviolet;
+}
+nav li {
     padding: 5px 15px;
     margin-left: 10px;
     margin-bottom: 5px;
-    border: 1px dotted gray;
-  }
-  
-  nav li:hover {
-    background-color: beige;
-  }
-  
-  article {
-    display: flex;
-    justify-content: end;
-  }
-  
-  article li {
-    display: inline-flex;
-    padding: 10px;
-    background-color:dodgerblue;
-    color: white;
-    border-radius: 5px;
-  }
-  
-  article li:hover, #bt1:hover {
-    background-color:brown;
-  }
-  
-  #bt1 {
-    background-color: green;
-  }
-  
-  ul > li {
-    list-style: none;
-  }
-  
-  a {
+    border: 1px solid grey;
+}
+nav li:hover {
+   background-color: beige; 
+}
+a{
     text-decoration: none;
-  }
-  
-  article a:link , article a:visited, article a:hover {
+}
+article a:link, a:visited a:hover {
     color: white;
-  }
+}
+.green{
+    background-color: green;
+}
+.green:hover {
+    background-color: rgb(94, 131, 38);
+}
+
+ 

@@ -1,14 +1,147 @@
+
 form {
     width: 90%;
     height: 60px;
-    background-color: beige;
-
+  
+    background-color: aliceblue;
+  
     display: flex;
-    justify-content: center;   
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #dt {
+    height: 30px;
+  }
+  
+  ul {
+    width: 100%;
+  }
+  
+  li {
+    width: 100%;
+    padding: 5px;
+    height: 30px;
+    font-size: small;
+  }
+  
+  li:hover {
+    background-color: aliceblue;
+  }
+
+  fieldset{
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    width: 400px;
+    padding:0px 10%;
+  }
+  label {display: inline-flex;
+    margin-left: 10px;
+    margin: 10px;
+} 
+
+#mv {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  #mvList {
+    width: 70%;
+    /* border: 1px solid gray; */
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  
+  #mvPoster {
+    width: 20%; 
+    
+    padding-top: 20px;
+    /* border: 1px solid gray; */
+  }
+  
+  img {
+    width : 90%;
+    border: 1px solid gray;
+  }
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    width: 80%;
+    border: 0px solid gray;
+    margin-left: 10%;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
     align-items: center;
 }
 
-input[type=date] {
-    height: 40px;
-    margin-right: 10px;
+h1, nav, article{
+    width: 90%;
+    border: 1px solid grey;
+    margin-bottom: 20px;
 }
+nav {
+    padding: 40px;
+}
+article {
+    padding: 20px;
+}
+h1 {
+    height: 80px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+article li {
+    display: inline-flex;
+    padding: 5px;
+    background-color: rgb(175, 151, 197);
+    color: white;
+    border-radius: 5px;
+}
+article {
+   display: flex; 
+   justify-content: end;
+}
+article li:hover {
+    background-color: blueviolet;
+}
+nav li {
+    padding: 5px 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: 1px solid grey;
+}
+nav li:hover {
+   background-color: beige; 
+}
+a{
+    text-decoration: none;
+}
+article a:link, a:visited a:hover {
+    color: white;
+}
+.green{
+    background-color: green;
+}
+.green:hover {
+    background-color: rgb(94, 131, 38);
+}
+
+ 
